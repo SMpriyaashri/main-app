@@ -32,7 +32,7 @@ const AmountForm = () => {
         </div>
       </label>
       <label>
-        Loan Amount:
+        Loan Amounts:
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <span style={{ marginRight: 4 }}>$</span>
           <input
