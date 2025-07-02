@@ -32,13 +32,13 @@ const AmountForm = () => {
         </div>
       </label>
       <label>
-        Loan Amounts:
+        Loan:
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <span style={{ marginRight: 4 }}>$</span>
           <input
             type="number"
             name="amount"
-            value={form.amount}
+            value={form.loan}
             onChange={handleChange}
             required
             min="0"
