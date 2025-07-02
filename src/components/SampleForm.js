@@ -32,22 +32,6 @@ const AmountForm = () => {
         </div>
       </label>
       <label>
-        Loan Amount:
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-          <span style={{ marginRight: 4 }}>$</span>
-          <input
-            type="number"
-            name="amount"
-            value={form.loanamount}
-            onChange={handleChange}
-            required
-            min="0"
-            step="0.01"
-            style={{ flex: 1 }}
-          />
-        </div>
-      </label>
-      <label>
         Purpose:
         <input
           type="text"
